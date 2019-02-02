@@ -4,6 +4,7 @@ Sonnenuntergang (Theme #13) by silbrigthemes.
 
 <h2>About</h2>
 <p>This theme is inspired by <em>Pantone</em>&rsquo;s Color of the Year 2019, <strong>Living Coral</strong>. The design works with warm colors and a contrast between angular and round elements.</p>
+<p>You can find the <a href="https://silbrigthemes.tumblr.com/post/182509061325/sonnenuntergang-theme-13-by-silbrigthemes-about" title="blog post">offical blog post here</a> and a link to the <a href="https://sonnenuntergangtheme.tumblr.com/" title="live preview">live preview here</a>.</p>
 <h2>Features</h2>
 <h3>Design</h3>
 <ul>
