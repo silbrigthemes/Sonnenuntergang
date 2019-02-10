@@ -15,7 +15,7 @@ Rules:
     3) Do not claim as your own.
     4) Do not edit beyond recognition.
     5) Do not alter or delete the credit.
-    
+
 Useful comments to this code have been made. There is  customization guide which can be accessed via sonnenuntergangtheme.tumblr.com/customization-guide.
 
 If you need any help for a problem that is not listed in the customization guide or where you cannot find a solution, feel free to send me a message via silbrigthemes.tumblr.com/ask or send a message to my official support blog, silbrigsupport.tumblr.com.
@@ -23,7 +23,7 @@ If you need any help for a problem that is not listed in the customization guide
 -->
 
     <head>
-    
+
     <meta charset="utf-16">
     <title>{Title}</title>
     {block:Description}
@@ -72,7 +72,7 @@ If you need any help for a problem that is not listed in the customization guide
             });
         });
     </script>
-    
+
     <!-- Other fonts. -->
     <!-- Roboto Mono -->
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&amp;subset=cyrillic-ext,greek-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -80,7 +80,7 @@ If you need any help for a problem that is not listed in the customization guide
     <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
     <!-- Dancing Script -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    
+
     <!-- Body fonts. -->
     <!-- Open Sans -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
@@ -88,7 +88,7 @@ If you need any help for a problem that is not listed in the customization guide
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
     <!-- Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&amp;subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese" rel="stylesheet">
-    
+
     <!-- Title fonts. -->
     <!-- Josefin Sans -->
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&amp;subset=latin-ext,vietnamese" rel="stylesheet">
@@ -96,15 +96,15 @@ If you need any help for a problem that is not listed in the customization guide
     <link href="https://fonts.googleapis.com/css?family=Kanit:300,400,700&amp;subset=latin-ext,thai,vietnamese" rel="stylesheet">
     <!-- Oswald -->
     <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,700&amp;subset=cyrillic,latin-ext,vietnamese" rel="stylesheet">
-    
+
     <meta name="if:Show Captions" content="0"/>
-    
+
     <meta name="if:Show Link 1" content="0"/>
     <meta name="if:Show Link 2" content="0"/>
     <meta name="if:Show Link 3" content="0"/>
     <meta name="if:Show Link 4" content="0"/>
     <meta name="if:Show Link 5" content="0"/>
-    
+
     <meta name="text:Custom URL 1" content="/"/>
     <meta name="text:Custom Link 1" content="Link 1"/>
     <meta name="text:Custom Icon 1" content="link"/>
@@ -124,14 +124,14 @@ If you need any help for a problem that is not listed in the customization guide
     <meta name="text:Custom URL 5" content="/"/>
     <meta name="text:Custom Link 5" content="Link 5"/>
     <meta name="text:Custom Icon 5" content="link"/>
-    
+
     <meta name="select:Ordered List" content="decimal" title="decimal"/>
     <meta name="select:Ordered List" content="lower-greek" title="lower greek"/>
     <meta name="select:Ordered List" content="lower-latin" title="lower latin"/>
     <meta name="select:Ordered List" content="upper-roman" title="upper roman"/>
-    
+
     <meta name="text:Unordered List" content="ec79"/>
-    
+
     <meta name="color:Accent 1" content="#fa909c"/>
     <meta name="color:Accent 2" content="#fca16c"/>
     <meta name="color:Accent 3" content="#fd0765"/>
@@ -140,7 +140,7 @@ If you need any help for a problem that is not listed in the customization guide
     <meta name="color:Italic Text" content="#111"/>
     <meta name="color:Posts" content="#fff"/>
     <meta name="color:Text" content="#333"/>
-    
+
     <meta name="color:Pink Text" content="#fd65cc"/>
     <meta name="color:Red Text" content="#ff6f61"/>
     <meta name="color:Orange Text" content="#fdaf65"/>
@@ -148,24 +148,24 @@ If you need any help for a problem that is not listed in the customization guide
     <meta name="color:Green Text" content="#03c350"/>
     <meta name="color:Blue Text" content="#6580fd"/>
     <meta name="color:Purple Text" content="#bc65fd"/>
-    
+
     <meta name="select:Font" content="Open Sans" title="Open Sans"/>
     <meta name="select:Font" content="Roboto" title="Roboto"/>
     <meta name="select:Font" content="Source Sans Pro" title="Source Sans Pro"/>
-    
+
     <meta name="select:Font Size" content="1em" title="16px"/>
     <meta name="select:Font Size" content="14px" title="14px"/>
     <meta name="select:Font Size" content="12px" title="12px"/>
-    
+
     <meta name="select:Title Font" content="Josefin Sans" title="Josefin Sans"/>
     <meta name="select:Title Font" content="Kanit" title="Kanit"/>
     <meta name="select:Title Font" content="Oswald" title="Oswald"/>
-    
+
     <meta name="select:Text Align" content="justify" title="justify"/>
     <meta name="select:Text Align" content="left" title="left"/>
-    
+
         <style>
-            
+
             body{
                 margin:0;
                 top:0;
@@ -177,20 +177,20 @@ If you need any help for a problem that is not listed in the customization guide
                 text-align:{select:Text Align};
                 overflow-x:hidden;
             }
-            
+
             /* Custom Scrollbar */
             ::-webkit-scrollbar{
                 width:10px;
                 background-color:{color:Posts};
                 border:4px solid {color:Background};
             }
-            
+
             ::-webkit-scrollbar-thumb{
                 width:10px;
                 background-color:{color:Background};
                 border:4px solid {color:Posts};
             }
-            
+
             /* Custom Text Selection */
             ::selection{
                 background-color:{color:Accent 1};
@@ -198,28 +198,28 @@ If you need any help for a problem that is not listed in the customization guide
                 text-shadow:none;
                 text-decoration:none;
             }
-            
+
             ::-moz-selection{
                 background-color:{color:Accent 1};
                 color:{color:Posts};
                 text-shadow:none;
                 text-decoration:none;
             }
-            
+
             ::-o-selection{
                 background-color:{color:Accent 1};
                 color:{color:Posts};
                 text-shadow:none;
                 text-decoration:none;
             }
-            
+
             ::-webkit-selection{
                 background-color:{color:Accent 1};
                 color:{color:Posts};
                 text-shadow:none;
                 text-decoration:none;
             }
-            
+
             /* Custom Tooltips */
             #s-m-t-tooltip{
                 max-width:300px;
@@ -233,21 +233,21 @@ If you need any help for a problem that is not listed in the customization guide
                 text-transform:uppercase;
                 font-weight:300;
             }
-            
+
             /*** TEXT STYLES ***/
             /* Bold Text */
             b, strong{
                 font-weight:700, bold;
                 color:{color:Bold Text};
             }
-            
+
             /* Italic Text */
             i, em{
                 font-weight:300;
                 font-style:italic;
                 color:{color:Italic Text};
             }
-            
+
             /* Line Break */
             hr{
                 width:80%;
@@ -256,7 +256,7 @@ If you need any help for a problem that is not listed in the customization guide
                 border:1px solid {color:Posts};
                 box-shadow:-2px -2px {color:Accent 1}, 2px 2px {color:Accent 2};
             }
-            
+
             /* Blockquote */
             blockquote{
                 box-shadow:-4px -4px {color:Accent 1}, 4px 4px {color:Accent 2};
@@ -265,19 +265,19 @@ If you need any help for a problem that is not listed in the customization guide
                 border:2px solid {color:Background};
                 color:{color:Text};
             }
-            
+
             /* Marked Text */
             mark{
                 background-color:{color:Accent 2};
                 padding:0 0.25em;
                 color:{color:Posts};
             }
-            
+
             /* Small Text */
             small{
                 font-size:calc({select:Font Size} - 2px);
             }
-            
+
             /* Empty Paragraphs */
             p:empty{
                 display:none;
@@ -301,7 +301,7 @@ If you need any help for a problem that is not listed in the customization guide
                 word-wrap:break-all;
                 white-space:pre-wrap;
             }
-            
+
             /* Read More */
             p.read_more_container{
                 border:2px solid {color:Accent 3};
@@ -329,15 +329,15 @@ If you need any help for a problem that is not listed in the customization guide
                 transition:0.5s;
                 -moz-transition:0.5s;
                 -o-transition:0.5s;
-                -webkit-transition:0.5s; 
+                -webkit-transition:0.5s;
             }
-            
+
             p.tmblr-attribution:hover{
                 border:2px solid {color:Background};
                 transition:0.5s;
                 -moz-transition:0.5s;
                 -o-transition:0.5s;
-                -webkit-transition:0.5s; 
+                -webkit-transition:0.5s;
             }
 
             p.tmblr-attribution a{
@@ -347,18 +347,18 @@ If you need any help for a problem that is not listed in the customization guide
                 transition:0.5s;
                 -moz-transition:0.5s;
                 -o-transition:0.5s;
-                -webkit-transition:0.5s; 
+                -webkit-transition:0.5s;
             }
-            
+
             p.tmblr-attribution a:hover{
                 color:{color:Background};
                 transition:0.5s;
                 -moz-transition:0.5s;
                 -o-transition:0.5s;
-                -webkit-transition:0.5s; 
+                -webkit-transition:0.5s;
                 cursor:pointer;
             }
-            
+
             /** LISTS **/
             /* Unordered List */
             ul{
@@ -381,7 +381,7 @@ If you need any help for a problem that is not listed in the customization guide
             ol{
                 list-style-type:{select:Ordered List};
             }
-            
+
             /** LINKS **/
             /* Link */
             a{
@@ -390,9 +390,9 @@ If you need any help for a problem that is not listed in the customization guide
                 transition:0.5s;
                 -moz-transition:0.5s;
                 -o-transition:0.5s;
-                -webkit-transition:0.5s;                
+                -webkit-transition:0.5s;
             }
-            
+
             /* Hover Link */
             a:hover{
                 color:{color:Accent 3};
@@ -400,9 +400,9 @@ If you need any help for a problem that is not listed in the customization guide
                 transition:0.5s;
                 -moz-transition:0.5s;
                 -o-transition:0.5s;
-                -webkit-transition:0.5s;                
+                -webkit-transition:0.5s;
             }
-            
+
             /** COLORED TEXT **/
             /* Red Text */
             .npf_color_joey {
@@ -456,7 +456,7 @@ If you need any help for a problem that is not listed in the customization guide
                 font-family:"Cormorant Garamond", "Palatino";
                 font-size:calc(1.5 * {select:Font Size});
             }
-            
+
             /** HEADINGS **/
             /* Post Title */
             .title{
@@ -468,20 +468,20 @@ If you need any help for a problem that is not listed in the customization guide
                 padding-top:4px;
                 font-family:{select:Title Font}, Verdana;
             }
-            
+
             /* Fist Heading */
             h1{
                 font-size:calc(1.5 * {select:Font Size});
                 border-bottom:4px solid {color:Accent 1};
             }
-            
+
             /* Second Heading */
             h2{
                 font-size:calc(1.25 * {select:Font Size});
                 border-bottom:2px solid {color:Accent 2};
                 font-weight:300;
             }
-            
+
             /*** SIDEBAR ***/
             #sidebar{
                 width:30vw;
@@ -496,14 +496,14 @@ If you need any help for a problem that is not listed in the customization guide
                 justify-content:center;
                 flex-direction:column;
             }
-            
+
             /** ICON **/
             #s-icon img{
                 width:96px;
                 height:96px;
                 border-radius:50%;
             }
-            
+
             /** TITLE **/
             #s-title{
                 font-size:calc(2 * {select:Font Size});
@@ -514,14 +514,14 @@ If you need any help for a problem that is not listed in the customization guide
                 margin-top:0.5em;
                 font-family:{select:Title Font}, Verdana;
             }
-            
+
             /** DESCRIPTION **/
             #s-desc{
                 width:80%;
                 text-align:center;
                 margin-top:0.5em;
             }
-            
+
             /** NAVIGATION **/
             #s-nav{
                 width:80%;
@@ -531,11 +531,11 @@ If you need any help for a problem that is not listed in the customization guide
                 justify-content:space-between;
                 flex-wrap:wrap;
             }
-            
+
             a.s-navlink{
                 text-decoration:none;
             }
-            
+
             .s-navi{
                 color:{color:Background};
                 border:2px solid {color:Background};
@@ -546,7 +546,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             .s-navi:hover{
                 background-color:{color:Background};
                 color:{color:Posts};
@@ -555,12 +555,12 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /** SEARCHBAR **/
             #s-searchbar{
                 width:80%;
             }
-            
+
             .sfm input {
                 background-color: {color:Posts};
                 font-size: {select:Font Size};
@@ -572,7 +572,7 @@ If you need any help for a problem that is not listed in the customization guide
                 font-family: {select:Font}, Verdana;
                 width:calc(100% - (16px + 16px + 20px + 4px + 8px));
             }
-            
+
             #s-searchbar button{
                 background-color:{color:Posts};
                 border:2px solid {color:Background};
@@ -585,7 +585,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             #s-searchbar button:hover{
                 color:{color:Posts};
                 background-color:{color:Background};
@@ -595,7 +595,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /** PAGINATION **/
             #s-pagination{
                 width:80%;
@@ -604,11 +604,11 @@ If you need any help for a problem that is not listed in the customization guide
                 align-items:center;
                 justify-content:space-between;
             }
-            
+
             a.s-pagilink{
                 text-decoration:none;
             }
-            
+
             .s-pagi{
                 color:{color:Background};
                 border:2px solid {color:Background};
@@ -619,7 +619,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             .s-pagi:hover{
                 background-color:{color:Background};
                 color:{color:Posts};
@@ -628,14 +628,14 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             .s-pagi-text{
                 color:{color:Background};
                 border:2px solid {color:Background};
                 padding:4px 8px;
                 margin-bottom:4px;
             }
-            
+
             #credit{
                 position:fixed;
                 bottom:1em;
@@ -654,7 +654,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             #credit:hover{
                 color:{color:Posts};
                 background-color:{color:Background};
@@ -663,12 +663,12 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             a.credlink{
                 text-decoration:none;
                 border-bottom:none;
             }
-            
+
             /*** POSTS ***/
             #posts{
                 width:70vw;
@@ -681,7 +681,7 @@ If you need any help for a problem that is not listed in the customization guide
                 justify-content:space-evenly;
                 flex-wrap:wrap;
             }
-            
+
             article{
                 width:calc(25vw - 2em);
                 {block:PermalinkPage}
@@ -693,18 +693,18 @@ If you need any help for a problem that is not listed in the customization guide
                 margin-bottom:2em;
                 box-shadow:-8px -8px {color:Accent 1}, 8px 8px {color:Accent 2};
             }
-            
+
             article img{
                 max-width:100%;
                 width:100%;
             }
-            
+
             figure.tmblr-full img{
                 max-width:100%;
                 width:100%;
                 height:auto;
             }
-            
+
             /** PHOTOSETS **/
             .photo-row {
                 padding:0.2em 0;
@@ -750,19 +750,19 @@ If you need any help for a problem that is not listed in the customization guide
             .photo-row-3 .image-container {
                 width:33.3333333%;
             }
-            
+
             /** AUDIO POST **/
             .audio > iframe{
                 width:100%;
                 max-width:100%;
             }
-            
+
             /** VIDEO POST **/
             .video > iframe{
                 width:100%;
                 max-width:100%;
             }
-            
+
             /** QUOTES **/
             /* Actual Quote */
             .quoted{
@@ -773,12 +773,12 @@ If you need any help for a problem that is not listed in the customization guide
                 color:{color:Background};
                 text-align:center;
             }
-            
+
             /* Quote Description */
             .quote-source{
                 margin-top:8px;
             }
-            
+
             /** QUESTIONS **/
             /* ANSWER */
             .answer{
@@ -786,11 +786,11 @@ If you need any help for a problem that is not listed in the customization guide
                 background-color:{color:Accent 1};
                 color:{color:Posts};
             }
-            
+
             /* Link */
             .answer a{
                 color:{color:Posts};
-                text-decoration:underline wavy {color:Posts};          
+                text-decoration:underline wavy {color:Posts};
             }
 
             .answer-username img{
@@ -836,11 +836,11 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
            }
-           
+
            .answer-username a:hover{
                color:{color:Accent 2};
            }
-           
+
            .answer hr{
                width:80%;
                height:4px;
@@ -848,14 +848,14 @@ If you need any help for a problem that is not listed in the customization guide
                box-shadow:none;
                background-color:{color:Posts};
            }
-           
+
            .answer blockquote{
                border:2px solid {color:Posts};
                box-shadow:none;
                color:{color:Posts};
                background-color:inherit;
            }
-           
+
            .answer p.tmblr-attribution{
                 border:2px solid {color:Posts};
                 color:{color:Posts};
@@ -864,22 +864,22 @@ If you need any help for a problem that is not listed in the customization guide
                 padding:0 0.25em;
                 text-align:center;
             }
-            
+
             .answer p.tmblr-attribution a{
                 color:{color:Posts};
                 transition:0.5s;
                 -moz-transition:0.5s;
                 -o-transition:0.5s;
-                -webkit-transition:0.5s; 
+                -webkit-transition:0.5s;
             }
-            
+
             .answer p.tmblr-attribution a:hover{
                 font-style:italic;
                 letter-spacing:2px;
                 transition:0.5s;
                 -moz-transition:0.5s;
                 -o-transition:0.5s;
-                -webkit-transition:0.5s; 
+                -webkit-transition:0.5s;
             }
 
             /* QUESTION */
@@ -932,7 +932,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
            }
-           
+
            /** CHAT **/
             /* Containers */
             .chatterbox{
@@ -998,7 +998,7 @@ If you need any help for a problem that is not listed in the customization guide
                 box-shadow:-4px 4px {color:Accent 1};
                 color:{color:Accent 1};
             }
-            
+
             /** LINK POSTS **/
             .link-posts{
                 width:100%;
@@ -1028,7 +1028,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             .link-posts a:hover{
                 background-color:{color:Posts};
                 color:{color:Background};
@@ -1042,7 +1042,7 @@ If you need any help for a problem that is not listed in the customization guide
                 width:100%;
                 max-width:100%;
             }
-            
+
             /*** USER SPECIFICATIONS ***/
            /** USERNAME **/
             .username{
@@ -1096,7 +1096,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /*** PERMALINK PAGE ***/
             /* User Avatar */
             img.avatar{
@@ -1192,8 +1192,8 @@ If you need any help for a problem that is not listed in the customization guide
 
             /* Notes Link on Hover */
             .notes a:hover{
-                border-bottom:2px solid #fd909c;
-                color:#fd909c;
+                border-bottom:2px solid {color:Accent1};
+                color:{color:Accent1};
                 box-shadow:none;
                 transition:0.5s;
                 -moz-transition:0.5s;
@@ -1231,7 +1231,7 @@ If you need any help for a problem that is not listed in the customization guide
                 box-shadow:none;
                 text-decoration:none;
             }
-            
+
             /** TIMESTAMP **/
             /* Timestamp Mark */
             .time mark{
@@ -1453,7 +1453,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /*** MORE ***/
             /* Hides the tumblr app button, by @yeoli-thm */
             .tmblr-iframe--app-cta-button {
@@ -1478,7 +1478,7 @@ If you need any help for a problem that is not listed in the customization guide
             a.tumblr-box{
                 border-bottom:none;
             }
-            
+
             /** CUSTOM TUMBLR CONTROLS **/
             /* Hides standard tumblr controls */
             body > iframe:first-child {
@@ -1527,7 +1527,7 @@ If you need any help for a problem that is not listed in the customization guide
                 -o-transition:0.5s;
                 -webkit-transition:0.5s;
             }
-            
+
             /*** RESPONSIVE LAYOUT ***/
             /** SMALL DEVICES **/
             @media only screen and (max-width:800px){
@@ -1538,11 +1538,11 @@ If you need any help for a problem that is not listed in the customization guide
                     top:calc(50vh - 120px);
                     flex-direction:column;
                 }
-                
+
                 .box{
                     border:2px solid {color:Posts};
                 }
-                
+
                 #resp-header{
                     background-color:{color:Posts};
                     padding:1em;
@@ -1551,19 +1551,19 @@ If you need any help for a problem that is not listed in the customization guide
                     margin-bottom:2em;
                     box-shadow:-8px -8px {color:Accent 1}, 8px 8px {color:Accent 2};
                 }
-                
+
                 #rh-title{
                     font-size:calc(2 * {select:Font Size});
                     color:{color:Background};
                     text-align:center;
                     text-decoration:underline wavy {color:Background};
                 }
-                
+
                 #rh-desc{
                     text-align:center;
                     margin-top:8px;
                 }
-                
+
                 #rh-navigation{
                     margin-top:4px;
                     display:flex;
@@ -1571,22 +1571,22 @@ If you need any help for a problem that is not listed in the customization guide
                     align-items:center;
                     justify-content:space-between;
                 }
-                
+
                 .s-navi{
                     margin-right:2px;
                 }
-                
+
                 #rh-searchbar{
                     width:100%;
                     margin-top:8px;
                     padding-top:4px;
                     border-top:2px solid {color:Background};
                 }
-                
+
                 .sfm input{
                     width:calc(100% - 70px);
                 }
-                
+
                 #rh-searchbar button{
                     background-color:{color:Posts};
                     border:2px solid {color:Background};
@@ -1599,7 +1599,7 @@ If you need any help for a problem that is not listed in the customization guide
                     -o-transition:0.5s;
                     -webkit-transition:0.5s;
                 }
-    
+
                 #rh-searchbar button:hover{
                     color:{color:Posts};
                     background-color:{color:Background};
@@ -1609,20 +1609,20 @@ If you need any help for a problem that is not listed in the customization guide
                     -o-transition:0.5s;
                     -webkit-transition:0.5s;
                 }
-                
+
                 #sidebar{
                     display:none;
                 }
-                
+
                 #posts{
                     width:100vw;
                     margin-left:0;
                 }
-                
+
                 article{
                     width:calc(75vw - 2em);
                 }
-                
+
                 #resp-footer{
                     background-color:{color:Posts};
                     padding:1em;
@@ -1634,7 +1634,7 @@ If you need any help for a problem that is not listed in the customization guide
                     display:none;
                     {/block:PermalinkPage}
                 }
-                
+
                 #rf-pagination{
                     width:100%;
                     display:flex;
@@ -1642,27 +1642,27 @@ If you need any help for a problem that is not listed in the customization guide
                     justify-content:space-between;
                 }
             }
-            
+
             /** OTHER DEVICES **/
             @media only screen and (min-width:800px){
                 #resp-header{
                     display:none;
                 }
-                
+
                 #resp-credit{
                     display:none;
                 }
-                
+
                 #resp-footer{
                     display:none;
                 }
             }
-            
+
         </style>
     </head>
-    
+
     <body>
-        
+
         <!-- CUSTOM TUMBLR CONTROLS -->
         <div id="big-box">
             <a href="https://www.tumblr.com/dashboard" title="go to dashboard" class="boxlink">
@@ -1694,15 +1694,15 @@ If you need any help for a problem that is not listed in the customization guide
                     <span class="th th-plus-1-o"></span>
                 </div>
             </a>
-            
+
             <a href="https://www.silbrigthemes.tumblr.com/" title="theme by silbrigthemes" class="boxlink">
                 <div class="box" id="resp-credit">
                     <span class="th th-code"></span>
                 </div>
             </a>
         </div>
-        
-            
+
+
         <!-- SIDEBAR -->
         <div id="sidebar">
             <div id="s-icon">
@@ -1719,7 +1719,7 @@ If you need any help for a problem that is not listed in the customization guide
                         Index
                     </div>
                 </a>
-                    
+
                 <!-- Ask Link -->
                 {block:AskEnabled}
                 <a href="/ask" title="{AskLabel}" class="s-navlink">
@@ -1729,17 +1729,17 @@ If you need any help for a problem that is not listed in the customization guide
                     </div>
                 </a>
                 {/block:AskEnabled}
-                    
+
                 <!-- Submit Link -->
                 {block:SubmissionsEnabled}
                 <a href="/submit" title="{SubmitLabel}" class="s-navlink">
                     <div class="s-navi">
-                        <span class="th th-paper-plane-o"></span> 
+                        <span class="th th-paper-plane-o"></span>
                         {SubmitLabel}
                     </div>
                 </a>
                 {/block:SubmissionsEnabled}
-                    
+
                 <!-- Archive Link -->
                 <a href="/archive" title="archive" class="s-navlink">
                     <div class="s-navi">
@@ -1747,58 +1747,58 @@ If you need any help for a problem that is not listed in the customization guide
                         Archive
                     </div>
                 </a>
-                    
+
                 <!-- First Custom Link -->
                 {block:IfShowLink1}
                 <a href="{text:Custom URL 1}" title="{text:Custom Link 1}" class="s-navlink">
                     <div class="s-navi">
-                        <span class="th th-{text:Custom Icon 1}"></span> 
+                        <span class="th th-{text:Custom Icon 1}"></span>
                         {text:Custom Link 1}
                     </div>
                 </a>
                 {/block:IfShowLink1}
-    
+
                 <!-- Second Custom Link -->
                 {block:IfShowLink2}
                 <a href="{text:Custom URL 2}" title="{text:Custom Link 2}" class="s-navlink">
                     <div class="s-navi">
-                        <span class="th th-{text:Custom Icon 2}"></span> 
+                        <span class="th th-{text:Custom Icon 2}"></span>
                         {text:Custom Link 2}
                     </div>
                 </a>
                 {/block:IfShowLink2}
-    
+
                 <!-- Third Custom Link -->
                 {block:IfShowLink3}
                 <a href="{text:Custom URL 3}" title="{text:Custom Link 3}" class="s-navlink">
                     <div class="s-navi">
-                        <span class="th th-{text:Custom Icon 3}"></span> 
+                        <span class="th th-{text:Custom Icon 3}"></span>
                         {text:Custom Link 3}
                     </div>
                 </a>
                 {/block:IfShowLink3}
-    
+
                 <!-- Fourth Custom Link -->
                 {block:IfShowLink4}
                 <a href="{text:Custom URL 4}" title="{text:Custom Link 4}" class="s-navlink">
                     <div class="s-navi">
-                        <span class="th th-{text:Custom Icon 4}"></span> 
+                        <span class="th th-{text:Custom Icon 4}"></span>
                         {text:Custom Link 4}
                     </div>
                 </a>
                 {/block:IfShowLink4}
-    
+
                 <!-- Fifth Custom Link -->
                 {block:IfShowLink5}
                 <a href="{text:Custom URL 5}" title="{text:Custom Link 5}" class="s-navlink">
                     <div class="s-navi">
-                        <span class="th th-{text:Custom Icon 5}"></span> 
+                        <span class="th th-{text:Custom Icon 5}"></span>
                         {text:Custom Link 5}
                     </div>
                 </a>
                 {/block:IfShowLink5}
             </div>
-                
+
             <!-- Searchbar -->
             <div id="s-searchbar">
                 <form action="/search" method="get" class="sfm" name="theform">
@@ -1808,7 +1808,7 @@ If you need any help for a problem that is not listed in the customization guide
                     </button>
                 </form>
             </div>
-                
+
             <!-- Pagination -->
             {block:Pagination}
             <div id="s-pagination">
@@ -1836,7 +1836,7 @@ If you need any help for a problem that is not listed in the customization guide
                 {/block:NextPage}
             </div>
             {/block:Pagination}
-                
+
             <!-- CREDIT -->
             <!-- Do not delete the credit! -->
             <!-- Otherwise you will be blocked and reported! -->
@@ -1846,10 +1846,10 @@ If you need any help for a problem that is not listed in the customization guide
                 </div>
             </a>
         </div> <!-- end sidebar -->
-        
-        <!-- POST CONTAINER -->    
+
+        <!-- POST CONTAINER -->
         <div id="posts">
-            
+
             <!-- RESPONSIVE HEADER -->
             <div id="resp-header">
                 <div id="rh-title">{Title}</div>
@@ -1872,7 +1872,7 @@ If you need any help for a problem that is not listed in the customization guide
                             Index
                         </div>
                     </a>
-                        
+
                     <!-- Ask Link -->
                     {block:AskEnabled}
                     <a href="/ask" title="{AskLabel}" class="s-navlink">
@@ -1882,17 +1882,17 @@ If you need any help for a problem that is not listed in the customization guide
                         </div>
                     </a>
                     {/block:AskEnabled}
-                        
+
                     <!-- Submit Link -->
                     {block:SubmissionsEnabled}
                     <a href="/submit" title="{SubmitLabel}" class="s-navlink">
                         <div class="s-navi">
-                            <span class="th th-paper-plane-o"></span> 
+                            <span class="th th-paper-plane-o"></span>
                             {SubmitLabel}
                         </div>
                     </a>
                     {/block:SubmissionsEnabled}
-                        
+
                     <!-- Archive Link -->
                     <a href="/archive" title="archive" class="s-navlink">
                         <div class="s-navi">
@@ -1900,59 +1900,59 @@ If you need any help for a problem that is not listed in the customization guide
                             Archive
                         </div>
                     </a>
-                        
+
                     <!-- First Custom Link -->
                     {block:IfShowLink1}
                     <a href="{text:Custom URL 1}" title="{text:Custom Link 1}" class="s-navlink">
                         <div class="s-navi">
-                            <span class="th th-{text:Custom Icon 1}"></span> 
+                            <span class="th th-{text:Custom Icon 1}"></span>
                             {text:Custom Link 1}
                         </div>
                     </a>
                     {/block:IfShowLink1}
-        
+
                     <!-- Second Custom Link -->
                     {block:IfShowLink2}
                     <a href="{text:Custom URL 2}" title="{text:Custom Link 2}" class="s-navlink">
                         <div class="s-navi">
-                            <span class="th th-{text:Custom Icon 2}"></span> 
+                            <span class="th th-{text:Custom Icon 2}"></span>
                             {text:Custom Link 2}
                         </div>
                     </a>
                     {/block:IfShowLink2}
-        
+
                     <!-- Third Custom Link -->
                     {block:IfShowLink3}
                     <a href="{text:Custom URL 3}" title="{text:Custom Link 3}" class="s-navlink">
                         <div class="s-navi">
-                            <span class="th th-{text:Custom Icon 3}"></span> 
+                            <span class="th th-{text:Custom Icon 3}"></span>
                             {text:Custom Link 3}
                         </div>
                     </a>
                     {/block:IfShowLink3}
-        
+
                     <!-- Fourth Custom Link -->
                     {block:IfShowLink4}
                     <a href="{text:Custom URL 4}" title="{text:Custom Link 4}" class="s-navlink">
                         <div class="s-navi">
-                            <span class="th th-{text:Custom Icon 4}"></span> 
+                            <span class="th th-{text:Custom Icon 4}"></span>
                             {text:Custom Link 4}
                         </div>
                     </a>
                     {/block:IfShowLink4}
-        
+
                     <!-- Fifth Custom Link -->
                     {block:IfShowLink5}
                     <a href="{text:Custom URL 5}" title="{text:Custom Link 5}" class="s-navlink">
                         <div class="s-navi">
-                            <span class="th th-{text:Custom Icon 5}"></span> 
+                            <span class="th th-{text:Custom Icon 5}"></span>
                             {text:Custom Link 5}
                         </div>
                     </a>
                     {/block:IfShowLink5}
                 </div>
             </div>
-            
+
             <!-- POSTS -->
             {block:Posts}
             <article>
@@ -2159,7 +2159,7 @@ If you need any help for a problem that is not listed in the customization guide
             {/block:Caption}
             {/block:IfShowCaptions}
             {/block:Photo}
-            
+
             <!-- PANORAMA POSTS -->
             {block:Panorama}
             {LinkOpenTag}
@@ -2413,7 +2413,7 @@ If you need any help for a problem that is not listed in the customization guide
                 {/block:PermalinkPage}
             </article>
             {/block:Posts}
-                
+
             <!-- RESPONSIVE FOOTER -->
             <div id="resp-footer">
                 <!-- Pagination -->
@@ -2445,7 +2445,7 @@ If you need any help for a problem that is not listed in the customization guide
                 {/block:Pagination}
             </div> <!-- end responsive footer -->
         </div><!-- end post section -->
-        
+
         <!-- SCRIPTS -->
         <script>
 
@@ -2531,6 +2531,6 @@ If you need any help for a problem that is not listed in the customization guide
         	}
         }
         </script> <!-- end scripts -->
-        
+
     </body>
 </html>
